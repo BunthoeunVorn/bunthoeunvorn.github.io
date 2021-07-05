@@ -3,28 +3,25 @@
 	padding: 0;
 	margin: 0; 
 }
-#header
+/* #header
 {
 	background-image: url("image/Banner3.jpg");
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-}
+} */
 #header .carousel-item img
 {
 	width: 100%;
-	height: 100vh;
 }
 nav{
 	width: 100%;
-	height: 102px;
 	background-color: #000;
 	opacity: 0.7;
-	font-size: 20pt;
 	line-height: 100px;
 	text-align: center;
 	position: fixed;
-	z-index: 3;
+	z-index: 20;
 }
 nav ul{
 	float: center;
@@ -43,15 +40,15 @@ nav ul li a{
 	text-decoration: none;
 	color: #fff;
 	padding: 30px;
+	font-size: 2vw;
 }
 
 /*-------------------------------Name-------------------------------------------*/
 	
 .name
 {
-	text-align: center;
 	padding: 60px;
-	margin-top: -480px;
+	margin-top: -50%;
 	background-image: cover;
 	box-shadow: 0 0 20px 10px rgba(0,0,0,1);
 	color: #fff;
@@ -60,11 +57,11 @@ nav ul li a{
 }
 .name h1
 {
-	font-size: 50px;
+	font-size: 5vw;
 }
 .name h2
 {
-	font-size: 30px;
+	font-size: 3vw;
 }
 /*-----------------------------Personal Data---------------------------------------*/
 
@@ -87,8 +84,6 @@ nav ul li a{
 {
 	margin-top: 50px;
 	width: 100%;
-	height:85%;
-	margin-left: -300px;
 	border-radius: 50%;
 	border: 3px solid wheat;
 
@@ -99,9 +94,8 @@ nav ul li a{
 }
 #personal table
 {
-	font-size: 20px;
+	font-size: 18px;
 	height: 500px;
-	margin-left: -120px;
 
 }
 #personal table td
